@@ -1,0 +1,70 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+section{
+    height: 600px;
+    padding-bottom: 150px;
+}
+
+/*Banner Section Start*/
+.top-banner{
+    display: flex;
+    background-image: url('../images/top-banner.png');
+    background-repeat: no-repeat;
+}
+.half-width{
+    width: 50%;
+    margin-top: 25px;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: coral; 
+}
+h2 span{
+    color: rgb(255, 165, 0);
+    font-size: 35px;
+}
+.half-width p{
+    background-color: azure;
+    text-align: justify;
+    box-shadow: 5px 4px 12px black;
+    padding: 20px;
+}
+.half-width img{
+    width: 80%;
+    margin-left: 5%;
+}
+.btn{
+    text-transform: uppercase;
+    text-decoration: none;
+    background: linear-gradient(30deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    color: white;
+    border-radius: 50px 0;
+    font-weight: 700;
+}
+a:hover{
+    border-radius: 0 50px;
+    transition: 0.3s;
+    color: blue;
+}
+/*Banner Section End*/
+
+/*Dream Area Section Start*/
+.dream-area{
+    display: flex;
+    background-image: url('../images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-text{
+    margin-right: 150px;
+}
+/*Dream Area Section End*/
+
+/*Experience Section Start*/
+/*Experience Section End*/
