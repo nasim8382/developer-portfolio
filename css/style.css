@@ -28,10 +28,10 @@ h2 span{
     color: rgb(255, 165, 0);
     font-size: 35px;
 }
-.half-width p{
+#paragraph-font{
     background-color: azure;
     text-align: justify;
-    box-shadow: 5px 4px 12px black;
+    box-shadow: 5px 4px 12px gray;
     padding: 20px;
 }
 .half-width img{
@@ -67,4 +67,57 @@ a:hover{
 /*Dream Area Section End*/
 
 /*Experience Section Start*/
+.experience{
+    background-image: url('../images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    margin-top: -100px;
+}
+.experience-area{
+    display: flex;
+    margin-left: 5%;
+    padding: 50px;
+}
+#experience-h1{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.exp-text{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+    background-color: azure;
+}
+.exp-text h3{
+    font-size: 35px;
+    margin-left: 25px;
+}
+.exp-text h4{
+    font-size: 20px;
+    color: rgb(255, 165, 0);
+    margin-left: 25px;
+}
+.exp-text p{
+    text-align: justify;
+    padding: 0px 25px 20px 25px;
+}
+#full-stack{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    width: 45%;
+    margin-right: 70px;
+}
+#baby-web{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+    width: 45%;
+}
 /*Experience Section End*/
+footer p{
+    text-align: center;
+    margin-top: 60px;
+}
+/*Footer Section Start*/
+
+/*Footer Section End*/
